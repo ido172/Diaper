@@ -9,12 +9,12 @@ and open the template in the editor.
         <meta charset="utf-8">
         <title>סטטיסטיקה</title>
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" >
-        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-        <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script src="https://code.jquery.com/jquery-2.1.1.js"></script>
         <link href="css/material-wfont.min.css" rel="stylesheet">        
         <script src="js/ripples.min.js"></script>
         <script src="js/material.min.js"></script>
         <link href="css/styles.css" rel="stylesheet">
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body class="mainWrapper">
@@ -42,67 +42,53 @@ and open the template in the editor.
         </div>
 
         <h1 class="page_header">סטטיסטיקה</h1>
-
-        <button type="button" class="btn openpanel">Open panel 3</button>
-        <button type="button" class="btn closepanel">Close panel 3</button>
-        <hr>
+        <br /><br /><br /><br /><br /><br /><br /><br />
         <div class="panel-group" id="accordion">
-            <div class="panel panel-default">
+            <div class="panel panel-default" id="panel1">
                 <div class="panel-heading">
                     <h4 class="panel-title">
-                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#panel1">Panel 1</a>
+                        <a data-toggle="collapse" data-target="#collapseOne" 
+                           href="#collapseOne">
+                           הצלחות
+                        </a>
                     </h4>
                 </div>
-                <div id="panel1" class="panel-collapse collapse">
+                <div id="collapseOne" class="panel-collapse collapse in">
                     <div class="panel-body">
-                        Contents panel 1
+                        oz oz oz
                     </div>
                 </div>
             </div>
-            <div class="panel panel-default">
+            <div class="panel panel-default" id="panel2">
                 <div class="panel-heading">
                     <h4 class="panel-title">
-                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#panel2">Panel 2</a>
+                        <a data-toggle="collapse" data-target="#collapseTwo" 
+                           href="#collapseTwo" class="collapsed">
+                            לקיחות
+                        </a>
                     </h4>
                 </div>
-                <div id="panel2" class="panel-collapse collapse">
+                <div id="collapseTwo" class="panel-collapse collapse">
                     <div class="panel-body">
-                        Contents panel 2
+                        oz oz oz
                     </div>
                 </div>
             </div>
-            <div class="panel panel-default">
+            <div class="panel panel-default" id="panel3">
                 <div class="panel-heading">
                     <h4 class="panel-title">
-                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#panel3">Panel 3</a>
+                        <a data-toggle="collapse" data-target="#collapseThree"
+                           href="#collapseThree" class="collapsed">
+                            מרווחי זמן
+                        </a>
                     </h4>
                 </div>
-                <div id="panel3" class="panel-collapse collapse">
+                <div id="collapseThree" class="panel-collapse collapse">
                     <div class="panel-body">
-                        Contents panel 3
+                        ilai ilai ilai
                     </div>
                 </div>
             </div>
         </div>
-        
-        <script type="text/javascript">
-        
-        $(document).ready(function() {
-        
-            $(".openpanel").on("click", function() {
-    $("#panel3").collapse('show');
-});
-$(".closepanel").on("click", function() {
-    $("#panel3").collapse('hide');
-});
-
-/* ensure any open panels are closed before showing selected */
-$('#accordion').on('show.bs.collapse', function () {
-    $('#accordion .in').collapse('hide');
-});
-        
-        });
-        
-        </script>
     </body>
 </html>

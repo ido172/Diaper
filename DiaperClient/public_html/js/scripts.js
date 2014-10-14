@@ -22,7 +22,7 @@ $( document ).ready(function() {
     
     
     function onActionScreenReady() {
-        selectedAction = &
+        //selectedAction = &
     }
 
 });

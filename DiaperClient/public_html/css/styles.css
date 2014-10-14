@@ -73,7 +73,6 @@ float: left;
 .mainWrapper .R { float: right;}
 .mainWrapper .L { /* float: left; */}
 
-<<<<<<< HEAD
 .mainWrapper .MedimTextP {
     text-align: center;
     font-size: xx-large; 
@@ -89,7 +88,8 @@ float: left;
 
 .mainWrapper .MediumTextTableTD {
     padding:15px;
-=======
+}
+
 .btn-default:not(.btn-link), .btn:not(.btn-link) {
     background-color: #f5a23b;
     font-size: 26px;
@@ -104,5 +104,4 @@ float: left;
 .mainWrapper .myLabel {
     margin-right: 42px;
     font-size: 30px;
->>>>>>> FETCH_HEAD
 }

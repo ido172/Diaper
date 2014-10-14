@@ -9,48 +9,48 @@ and open the template in the editor.
 */
 
 html, body {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	vertical-align: baseline;
-        direction: rtl;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    direction: rtl;
 }
 
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
-        direction: rtl;
+    display: block;
+    direction: rtl;
 }
 body {
-	line-height: 1;
-        direction: rtl;
+    line-height: 1;
+    direction: rtl;
 }
 ol, ul {
-	list-style: none;
-        direction: rtl;
+    list-style: none;
+    direction: rtl;
 }
 .mainWrapper ol li, .mainWrapper ul li{
-	float:right;
+    float:right;
 }
 
 blockquote, q {
-	quotes: none;
-        direction: rtl;
+    quotes: none;
+    direction: rtl;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
-        direction: rtl;
+    content: '';
+    content: none;
+    direction: rtl;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
-        
-	direction: ltr;
-	/* align-content: center; */
-	/* align-self: center; */
-	/* vertical-align: middle; */
+    border-collapse: collapse;
+    border-spacing: 0;
+
+    direction: ltr;
+    /* align-content: center; */
+    /* align-self: center; */
+    /* vertical-align: middle; */
 }
 
 body { background-color: #EEE; direction: rtl;} 
@@ -59,7 +59,7 @@ body { background-color: #EEE; direction: rtl;}
     float: right;
 }
 .navbar-toggle{
-float: left;
+    float: left;
 }
 
 .mainWrapper .clear {
@@ -114,4 +114,13 @@ float: left;
 }
 .panel-heading a.collapsed:after {
     content: "\e080";
+}
+
+.mainWrapper .footer {
+    background-color: #4285F4;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    padding: 5px;
+    color: #E1EBFD;
 }

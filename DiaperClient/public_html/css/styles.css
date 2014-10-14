@@ -48,6 +48,9 @@ table {
 	border-spacing: 0;
         
 	direction: ltr;
+	/* align-content: center; */
+	/* align-self: center; */
+	/* vertical-align: middle; */
 }
 
 body { background-color: #EEE; direction: rtl;} 
@@ -69,3 +72,20 @@ float: left;
 
 .mainWrapper .R { float: right;}
 .mainWrapper .L { /* float: left; */}
+
+.mainWrapper .MedimTextP {
+    text-align: center;
+    font-size: xx-large; 
+    vertical-align: central;
+}
+
+.mainWrapper .MediumTextTable {
+    text-align: center;
+    font-size: xx-large; 
+    vertical-align: central;
+    alignment-adjust: central;
+}
+
+.mainWrapper .MediumTextTableTD {
+    padding:15px;
+}

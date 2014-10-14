@@ -1,0 +1,71 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11/10/2014, 17:45:54
+    Author     : miki
+*/
+
+html, body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+        direction: rtl;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+        direction: rtl;
+}
+body {
+	line-height: 1;
+        direction: rtl;
+}
+ol, ul {
+	list-style: none;
+        direction: rtl;
+}
+.mainWrapper ol li, .mainWrapper ul li{
+	float:right;
+}
+
+blockquote, q {
+	quotes: none;
+        direction: rtl;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+        direction: rtl;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+        
+	direction: ltr;
+}
+
+body { background-color: #EEE; direction: rtl;} 
+
+.navbar-brand {
+    float: right;
+}
+.navbar-toggle{
+float: left;
+}
+
+.mainWrapper .clear {
+    clear:both;
+}
+.mainWrapper .page_header {
+    padding-right: 42px;
+    float: right;
+}
+
+.mainWrapper .R { float: right;}
+.mainWrapper .L { /* float: left; */}

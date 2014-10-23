@@ -5,9 +5,9 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
 <html>
-    <head>        
+    <head>
         <meta charset="utf-8">
-        <title>טיפים</title>
+        <title>התחברות</title>
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" >
         <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
         <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
@@ -36,16 +36,24 @@ and open the template in the editor.
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="javascript:void(0)" class=" withripple">בית<div class="ripple-wrapper"></div></a></li>
                         <li><a href="about.html" class=" withripple">אודות<div class="ripple-wrapper"></div></a></li>
-                        <li class="active"><a href="tips.html" class=" withripple">טיפים<div class="ripple-wrapper"></div></a></li>
+                        <li><a href="tips.html" class=" withripple">טיפים<div class="ripple-wrapper"></div></a></li>
                     </ul>
                 </div>
             </div>
         </div>
 
-        <h1 class="page_header">טיפים</h1>
-        <br /><br /><br /><br/>
-        <p class="MedimTextP">
-            הטיפים המפורטים בעמוד זה נצברו בעזרת שנים של פיתוח תוכניות גמילה, גמילת עשרות ילדים, ומשותפים אתכם, באהבה.
-        </p>
+        <h1 class="page_header">התחברות</h1>        
+        <form role="form" class="formMain">
+                <input type="email" class="form-control" id="emailValue" placeholder="הזן שם משתמש או אימייל" />
+                <br><br>
+                <input type="password" class="form-control" id="password" placeholder="הזן סיסמא" />
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox">&nbsp;&nbsp;&nbsp;&nbsp;
+                    הישאר מחובר
+                </label>
+            </div>
+            <button type="submit" style="text-align: center" class="btn btn-default">התחברות</button>
+        </form>
     </body>
 </html>

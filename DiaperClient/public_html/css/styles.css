@@ -79,6 +79,16 @@ body { background-color: #EEE; direction: rtl;}
     vertical-align: central;
 }
 
+.mainWrapper .secondLevelHeader {
+    padding:10px;
+    font-size: x-large; 
+}
+
+.mainWrapper .thirdLevelHeader {
+    padding:10px;
+    font-size: medium; 
+}
+
 .mainWrapper .MediumTextTable {
     text-align: center;
     font-size: xx-large; 
@@ -123,4 +133,8 @@ body { background-color: #EEE; direction: rtl;}
     position: fixed;
     padding: 5px;
     color: #E1EBFD;
+}
+
+.mainWrapper .formMain {
+    padding-right: 20px;
 }
